@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Haukai Restaurant homepage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        </head>
+        <body>
+    
+        <header class="w3-container w3-pale-blue">
+            <h1>Haukai Restaurant</h1>
+        </header>
+        
+        <nav class="w3-bar w3-blue w3-card-4 w3-padding-16">
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+          <a href="customercontact.html" class="w3-bar-item w3-button w3-hide-small">Contact Details</a>
+          <a href="roster.html" class="w3-bar-item w3-button w3-hide-small">Roster</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </nav>
+        
+        <div id="demo" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium">
+          <a href="customercontact.html" class="w3-bar-item w3-button w3-padding-16">Contact Details</a>
+          <a href="roster.html" class="w3-bar-item w3-button w3-padding-16">Roster</a>
+        </div>
+    <main>
+      <div class="row">
+        <div class="column">
+          <h2>Column 1</h2>
+          <p>Paragraph 1.</p>
+          <p>Paragraph 2.</p>
+        </div>
+        <div class="column">
+          <h2>Column 2</h2>
+          <p>Paragraph 1.</p>
+          <p>Paragraph 2.</p>
+        </div>
+      </div>
+      
+      <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+         </main>
+         
+        <footer class="w3-container w3-pale-blue">
+            <p> &copy; Copyright 2023 by Haukai Restaurant.</p>
+        </footer>
+  </body>
+</html>
