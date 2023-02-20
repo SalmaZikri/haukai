@@ -1,2 +1,0 @@
-# haukai
-haukai restaurant project
