@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "/app/haukai/.htpasswd"
+AuthUserFile "C:\Users\salmaz\OneDrive - Al-Madinah School\Documents\Haukai restaurant using framework\haukairestaurantwebsite/haukai/.htpasswd"
 Require valid-user
