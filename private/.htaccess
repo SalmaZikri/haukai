@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "/haukairestaurantwebsite/.htpasswd"
+AuthUserFile "/haukairestaurantwebsite/www/.htpasswd"
 Require valid-user
